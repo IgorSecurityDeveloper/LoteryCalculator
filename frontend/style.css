@@ -1,0 +1,70 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    align-content: center;
+    background-color: rgb(20, 20, 20);
+    width: 750px;
+    margin: auto;
+}
+
+#buttonAnalyse {
+    color: rgb(249, 253, 253);
+    background-color: #178c0c;
+    width: 200px;
+}
+
+/* Esconde o input para estilizar com um botão */
+.file-input {
+    display: none;
+  }
+  
+  /* Container do botão e texto */
+  .file-upload {
+    display: inline-block;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo do botão */
+  .upload-label {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-label:hover {
+    background-color: #45a049;
+  }
+  
+  /* Texto do nome do arquivo */
+  #file-name {
+    font-size: 14px;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; /* Ajuste conforme necessário */
+  }
+  
+table {
+    display: flex;         
+    justify-content: center; 
+    align-items: center;    
+    margin: 10px;
+    padding: 10px;
+}

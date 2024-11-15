@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LoteryCalculator</title>
+</head>
+<body>
+    <div id="container">
+    <h1>Selecione o arquivo para analise</h1>
+    <br>
+    <br>
+    <div class="file-upload">
+        <label for="table" class="upload-label">
+          Escolher arquivo
+          <span id="file-name">Nenhum arquivo selecionado</span>
+        </label>
+        <input type="file" id="table" class="file-input">
+      </div>
+    <br>
+    <br>
+    <input type="button" value="analyse" id="buttonAnalyse">
+    <br>
+    <br>
+    <h2>Números mais possíveis por dezena</h2>
+    <table>
+        <thead>
+            <th scope="col">Dezena 1</th>
+            <th scope="col">Dezena 2</th>
+            <th scope="col">Dezena 3</th>
+            <th scope="col">Dezena 4</th>
+            <th scope="col">Dezena 5</th>
+            <th scope="col">Dezena 6</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row" id="dez1"></td>
+                <td scope="row" id="dez2"></td>
+                <td scope="row" id="dez3"></td>
+                <td scope="row" id="dez4"></td>
+                <td scope="row" id="dez5"></td>
+                <td scope="row" id="dez6"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
